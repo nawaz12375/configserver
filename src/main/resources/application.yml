@@ -21,5 +21,10 @@ spring:
       port: 5672
       username: "guest"
       password: "guest"
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
 server:
   port: 8071
